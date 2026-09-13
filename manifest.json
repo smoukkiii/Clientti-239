@@ -1,0 +1,32 @@
+{
+  "version": "r239-forge-1.0.11",
+  "package": "UnforgeLauncher-r239.zip",
+  "url": "http://35.228.183.12:8080/UnforgeLauncher-r239.zip",
+  "runtime": {
+    "internalConnectionLayer": true,
+    "bundledJava": true,
+    "autoUpdate": true,
+    "shadowProxy": true
+  },
+  "target": {
+    "file": "proxy-targets.yaml",
+    "sha256": "895C31C2F2B920ED2AA77BCA65EF5170189227D463BF8AA3F5399AA3D686014D"
+  },
+  "server": {
+    "revision": 239,
+    "host": "35.228.183.12",
+    "port": 43595
+  },
+  "updates": [
+    "MasterPluginPipeline READY -runko aktiivinen",
+    "Unforge r239 client + custom plugins",
+    "Proxy UI käynnistyy shadow-tilassa",
+    "R239 JS5-yhteensopivuusreitti käytössä",
+    "Pelaajalle jätetty Item Hover; kehittäjätyökalut pois päältä",
+    "Skill levels use the server's wire-safe 0-255 display range"
+  ],
+  "client": {
+    "file": "UnforgeR239-client.jar",
+    "sha256": "3898916AFB52D08F8CDA780231043893A2B8F4C0C934C41C7EDD558CB8CDADAF"
+  }
+}
